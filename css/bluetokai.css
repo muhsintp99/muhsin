@@ -1,0 +1,828 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background: rgb(255, 255, 255);
+    z-index: 99;
+    
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+   
+}
+.navigation{
+    text-align: center;
+    position: relative;
+    left: 325px;
+    align-items: center;
+    display: flex;
+
+
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 0.8px;
+
+}
+.navigation .btnlogin{
+    width: 160px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #51bebe;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 35px;  
+    transition: 0.5s; 
+    letter-spacing: 2px;   
+
+}
+.navigation .btnlogin:hover
+{
+    background-color: aquamarine;
+}
+.navigation .icon1{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: -79px;
+    bottom: 16px;
+}
+.navigation .icon1 img
+{
+    justify-content: space-between;
+}
+.pp{
+    margin-right: 25px;
+    position: relative;
+    left: 200px;
+}
+
+
+
+/* images slide */
+
+.slideshow{
+    margin: 0;
+    padding: 0;
+    height: 600px;
+}
+.slideshow-container
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.mySlides{
+    height: 100%;
+    width: 100%;
+}
+
+.mySlides img{
+    height: 550px;
+}
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 76px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 10%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+
+/* <--- start box --> */
+
+.AA{
+    margin-left: 80px;
+    margin-right: 80px;
+    background: url(/img/ecopy.png)
+}
+.AA1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.AA2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.AA31{
+    height: 616px;
+    width: 310px;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+.AA31line
+{
+background-image: linear-gradient(178deg,rgba(0,0,0,0) 46%,rgba(0,0,0,.7) 98%);
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+}
+
+.AA31 a{
+    position: relative;
+    top: 497px;
+    padding: 22px;
+    font-size: xx-large;
+    color: aqua;
+    text-decoration: none;
+    justify-items: center;
+    display: flex;
+
+}
+
+.AA4{
+    display: flex;
+    flex-direction: row;
+}
+
+.AA42{
+    height: 276px;
+    width: 373px;
+    margin: 30px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15px
+    
+}
+
+.AA42 a{
+    position: relative;
+    top: 230px;
+    padding: 10px;
+    font-size: xx-large;
+    color: aqua;
+    text-decoration: none;
+
+
+}
+
+.AA42line{
+    background-image: linear-gradient(178deg,rgba(0,0,0,0) 46%,rgba(0,0,0,.7) 98%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    top: 0px;
+    right: 0px;
+
+}
+
+
+.bga1{
+
+    background-image: url("https://bluetokaicoffee.com/cdn/shop/files/Roasted_and_Ground_Coffee_1.png?v=1643966557&quot");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.bgb1{
+    background-image: url("https://bluetokaicoffee.com/cdn/shop/files/CBC_Creative1249_1.jpg?v=1666075830&quot");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bgb2{
+    background-image: url("https://bluetokaicoffee.com/cdn/shop/files/Merch.jpg?v=1619093260&quot");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bgb3{
+    background-image: url("https://bluetokaicoffee.com/cdn/shop/files/easy_pour_hh_49096cc4-df3d-4ef0-894a-cbca98c7c52e.jpg?v=1653040828&quot");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bgb4{
+    background-image: url("https://bluetokaicoffee.com/cdn/shop/files/Pour_Over_2.png?v=1629652376&quot");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bgb4:hover{
+    transform: scale(1.1)
+}
+.bgb3:hover{
+    transform: scale(1.1)
+}
+.bgb2:hover{
+    transform: scale(1.1)
+}
+.bgb1:hover{
+    transform: scale(1.1)}
+.bga1:hover{
+    transform: scale(1.1)
+}
+
+/* start the new section */
+
+
+.BB{
+    /* background-color: aqua; */
+    height: 600px;
+    width: 100%;
+    line-height: 1;
+}
+
+.BB11{
+    align-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    top: 40px;
+
+
+}
+
+.BB .BB11 h1{
+    padding-bottom: 25px;
+}
+
+.BB1{
+    align-content: center;
+    
+}
+
+.card{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.imgbx{
+    height:  450px;
+    width: 350px; 
+}
+
+.imgbox1{
+    height: 20px;
+    position: relative;
+    z-index: 1;
+}
+.imgbox2{
+
+    border-radius: 15px;
+    height: 230px;
+    text-align: center;
+    justify-content: center;
+    text-align: justify;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 186px;
+    transition: 0.3s;
+}
+
+.imgbox2 .i22{
+    font-size: 15px;
+}
+
+.imgbox2:hover{
+    box-shadow: 0px 0px 30px rgb(105, 101, 101);
+ 
+}
+
+.imgbx .BBimg{
+    height: 240px;
+    width: 280px;
+    border-radius: 10px;
+
+}
+
+
+
+ /* started new skiders */
+
+
+
+.CC{
+    margin-left: 80px;
+    margin-right:80px ;
+}
+
+.CC1{
+    display: flex;
+} 
+
+.CCbox{
+    margin: 30px 10px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.CCimg{
+    height: 290px;
+    width: 280px;
+    border-radius: 10px;
+    
+
+}
+
+
+.CCbox2 h2{
+    font-size: 18px;
+    font-family: brandon bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.CCbox3{
+    display: flex;
+     justify-content: center;
+     align-self: center;
+     margin-top: auto;
+    
+
+}
+
+.CCbtn{
+    width: 260px;
+    height: 30px;
+    border: 2px solid #51bebe;
+    border-radius: 6px;
+    color: white;
+    background: #51bebe;
+font-size: 15px;
+font-weight: bold;
+letter-spacing: 5px;    
+cursor: pointer;
+transition: 0.5s;
+
+}
+.CCbtn:hover{
+    box-shadow: 0px 0px 28px 0px #0f0f0f;
+}
+
+/* subscribe section started */
+
+
+
+.DD{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.DD11{
+    display: flex;
+    flex-direction: row;
+
+}
+.DDtex{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    padding: 0px;
+    align-items: flex-start;
+}
+
+.DDtex h1{
+    font-size: xxx-large;
+    line-height: 3;
+}
+
+.DDtex p{
+    font-size: 20px;
+
+}
+
+.DDtex ul{
+    margin: 20px 6px;
+
+}
+.DDtex li{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.DD1{
+    height: 530px;
+    width: auto;
+    margin: auto;
+}
+
+.DD1 img{
+    border-radius: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    width: 630px;
+}
+.DDbtn{
+    height: 35px;
+    width: 420px;
+
+    border-radius: 6px;
+    background: #51bebe;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+.DDbtn:hover{
+    /* transform: scale(1.1); */
+    box-shadow: 0px 0px 38px 0px #0f0f0f;
+}
+
+
+/* journey section started */
+
+.EE{
+    background: #51bebe;
+    height: 440px;
+    width: 100%;
+}
+.EE11{
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    top: 60px;
+}
+
+.EE1box{
+    text-align: center;
+
+}
+
+.EE2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.EEbox{
+    margin: 30px 10px;
+    padding: 20px 15px;
+    background: rgb(255, 255, 255);
+    /* border: black solid; */
+    border-radius: 10px;
+    height: 190px;
+    width: 170px;
+}
+.EEimg{
+    position: relative;
+    right: -33px;
+    
+}
+.EE2 p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+/* blog section started */
+
+.FF{
+    background: rgb(52, 48, 48);
+    height: 650px;
+    width: 100%;
+    background-image: url(/img/ecopy.png);
+    background-position: left;
+    
+}
+
+.FF11{
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    
+
+}
+
+.FF1{
+    color: white;
+}
+
+.FF2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.FFslider 
+{
+    width: 75%;
+    height: 400px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50px; 
+}
+  
+.FFslider .FFitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #12b3c6;
+    border-radius: 10px;
+    transition: all ease 0.7s;
+    z-index: 1;
+    left: 0;
+    transform: scale(0.8);
+    left: -500px;
+    right: 0;
+    margin: 0 auto;
+    
+}
+
+.FFslider .FFitem.FFactive {
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: 1;
+   background: #12b3c6;;
+    transform: scale(1);
+    box-shadow: 0px 0px 58px 0px #0f0f0f;
+    cursor: pointer;
+    transition: 0.5s;
+   
+
+}
+.FFslider .FFitem.FFactive:hover {
+    transform:scale(1.1) ;
+}
+
+  
+  .FFslider .FFitem.FFactive ~ .FFitem {
+    left: 0;
+    right: -500px;
+  }
+  
+  .FFslider .FFitem.FFactive + .FFitem ~ .FFitem {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .FFbox{
+    display: flex;
+    flex-direction: row;
+  }
+  .FFimg{
+    height: 330px;
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 58px 0px #0f0f0f;
+    margin-right: 120px;
+  }
+  .FFp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .FFp1{
+    flex-direction: row;
+  }
+
+  .FFp1p{
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+    font-size: large;
+  }
+  .FFbtn img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    color: white;
+  } 
+.FFbtn
+{
+  border: none;
+  background: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.FFbtn:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+
+
+
+
+/* footer section started */
+
+
+
+.GG{
+    background: #12b3c6;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.GG1{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    background: #12b3c6;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: absolute;
+    top: auto;
+    left: 0px;
+    text-align: center;
+    text-align: start;
+    
+
+
+}
+
+.col{
+    word-spacing: 5px;
+    padding-left: 20px;
+    display: inline-grid;
+    justify-items: start;
+    align-items: center;
+    align-content: space-between; 
+    color: black;
+    text-decoration: none;
+    margin-left: 12px;
+    /* line-height: 2; */
+    
+    
+}
+
+.col p{
+    position: relative;
+    bottom: 60px;
+
+}
+
+.col1{
+    margin-left: 58px;
+}
+
+.col a{
+    color: black;
+    text-decoration: none;
+    line-height: 2em;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.col a:hover{
+    color: white;
+}
+
+.GGsingup{
+    justify-content: space-between;
+    position: relative;
+    bottom: 110px;
+}
+
+.GGtext{
+    height: 30px;
+    width: 247px;
+
+    position: relative;
+    bottom: 9px;
+
+    border-radius: 5px;
+}
+
+.GGbtn{
+    height: 37px;
+    width: 249px;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.GGbtn:hover::after    
+{
+  box-shadow: 10px 50px 50px rgb(0, 0, 0);
+  transform: 1;
+}
+.GGsocial{
+    letter-spacing: 10px;
+    position: relative;
+    top: -15px;
+    
+}
+
+.GGsocial img{
+    position: relative;
+    transition: 0.5s;
+
+}
+.GGsocial img:hover{
+    transform: translate(0,-10px);
+}
